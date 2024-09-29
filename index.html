@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Seoul, South Korea!</title>
+  <style>
+    body {
+      background-color: #ADD8E6;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1, h2 {
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      background-color: black;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #ADD8E6;
+      color: black;
+    }
+
+    .seoulinfo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      width: 80%;
+    }
+
+    .seoulinfo h4 {
+      margin-right: 20px;
+      flex-basis: 60%;
+    }
+
+    .seoulimg {
+      width: 200px;
+      height: 200px;
+      border: 5px solid black;
+      flex-basis: 40%;
+    }
+
+    section {
+      width: 80%;
+      margin: 20px 0;
+    }
+
+    .attraction {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      align-items: center;
+      background-color: white;
+      padding: 20px;
+    }
+
+    .attraction img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .attraction-description {
+      background-color: white;
+      padding: 20px;
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+
+      a:visited {
+        color: purple;
+      }
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      bottom: 0;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Seoul, South Korea</h1>
+    <nav>
+        <a href="#attractions">Must-see Attractions</a>
+        <a href="#facts">Interesting Facts</a>
+        <a href="#plan-trip">Plan Your Trip</a>
+    </nav>
+  </header>
+
+  <section id="facts" class="seoulinfo">
+    <h4>Welcome to Seoul, South Korea, home to skyscrapers and malls down to the vibrant city life and food.
+      <br> Check out some must-see attractions today!
+      <p><i><u>Interesting, yet True Facts about Seoul, South Korea: </u></i></p>
+      <ul>
+        <li>Seoul is South Korea's capital consisting of over 9 million people in the city itself.</li>
+        <li>Seoul is known for its advanced technology and serves as the home of Samsung and LG. Due to Seoul's technological status, they have some of the fastest internet speeds in the world!</li>
+        <li>Seoul is very famous for its entertainment industry. They are known for their music, K-pop, and their Korean films and K-Dramas.</li>
+      </ul>
+    </h4>
+    <img class="seoulimg" src="Seoul.webp" alt="Seoul">
+  </section>
+
+  <section id="attractions">
+    <h2>Three Must-see Attractions</h2>
+    <div class="attraction">
+      <img src="Gyeongbokgung.jpg" alt="Gyeongbokgung Palace">
+      <div class="attraction-description">
+        <b>Gyeongbokgung Palace</b>
+        <p>Gyeongbokgung Palace is the largest of the Five Grand Palaces built by the Joseon dynasty. It has the perfect blend of history, culture, and architectural beauty, making the visit worth the while.</p>
+        <p>Find out more<a href = "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=87740" target="_blank" rel="noopener noreferrer"> here!</a></p>
+      </div>
+
+      <img src="Myeongdong.jpg" alt="Myeongdong Shopping Street">
+      <div class="attraction-description">
+        <b>Myeongdong Shopping Street</b>
+        <p>Myeondong Shopping Street, located in the heart of Seoul, South Korea is a shopping destination known for its fashion, cosmetics, and street food. The entertainment options and lively atmosphere will make you want to stay there forever!</p>
+        <p>Find out more<a href = "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=88011" target="_blank" rel="noopener noreferrer"> here!</a></p>
+      </div>
+
+      <img src="National Folk Museum of Korea.jpg" alt="National Folk Museum of Korea">
+      <div class="attraction-description">
+        <b>National Folk Museum of Korea</b>
+        <p>The National Folk Museum is dedicated to showing the diverse cultural heritage of Koreans. Within the Museum, people can find various folk art and crafts, ceremonial objects, and the famous "Grand Hall". If you love history, you'll love this museum!</p>
+        <p>Find out more<a href = "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110875" target="_blank" rel="noopener noreferrer"> here!</a></p>
+      </div>
+  </section>
+
+  <section id="plan-trip">
+    <h2>So...What are you waiting for?</h2>
+    <h4 align="center">
+      It is not too late to book a flight! Do some quick research on your housing logistics and flights, and go ahead and explore the city because there is so much more fun and liveliness this city has to offer than you can even imagine!
+      <br><br> Plan your journey today and we hope to see you there soon!
+    </h4>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Visit Seoul, South Korea!</p>
+    <p>Contact: visitseoultoday@gmail.com</p>
+  </footer>
+
+</body>
+
+</html>
